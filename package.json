@@ -1,0 +1,31 @@
+{
+  "name": "flyps-todomvc",
+  "version": "0.1.0",
+  "description": "Todo implementation using flyps",
+  "private": true,
+  "main": "src/index.js",
+  "browser": "dist/todo.js",
+  "scripts": {
+    "build": "rollup -c",
+    "format": "prettier --write 'src/**/*.js'",
+    "lint": "eslint src",
+    "watch": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "flyps": "^0.6.5",
+    "flyps-dom-snabbdom": "^0.1.4",
+    "prettier": "^1.18.0",
+    "rollup": "^1.14.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.1"
+  },
+  "dependencies": {
+    "todomvc-app-css": "^2.2.0"
+  }
+}
