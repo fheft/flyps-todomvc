@@ -2,6 +2,7 @@
   "name": "flyps-todomvc",
   "version": "0.1.0",
   "description": "Todo implementation using flyps",
+  "license": "MIT",
   "private": true,
   "main": "src/index.js",
   "browser": "dist/todo.js",
